@@ -3,3 +3,7 @@
 username=jyotsna
 
 echo "my name is $username"
+
+username1=lunch
+
+echo "today our $username1"
