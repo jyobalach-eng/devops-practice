@@ -5,9 +5,9 @@ g="\e[32m"
 y="\e[33m"
 n="\e[0m"
 
-j=$1 
+echo "enter u r age " 
 
-read $1
+read j
 
 if [ $j -lt 21 ]; then
     echo -e "j is $r not eligible $n to vote"
