@@ -5,7 +5,9 @@ g="\e[32m"
 y="\e[33m"
 n="\e[0m"
 
-j=$1
+j=$1 
+
+read $1
 
 if [ $j -lt 21 ]; then
     echo -e "j is $r not eligible $n to vote"
