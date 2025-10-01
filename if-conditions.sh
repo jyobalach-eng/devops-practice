@@ -20,3 +20,24 @@ fi
 
 
 
+
+
+
+
+
+
+
+echo "please enter your name"
+read name
+echo "please enter your ID number"
+read ID_number
+echo "please enter your marks"
+read marks
+
+if [ $marks -ne 50 ]; then
+    echo "$name you are failed"
+else
+    echo "$name you are passed"
+fi
+
+
