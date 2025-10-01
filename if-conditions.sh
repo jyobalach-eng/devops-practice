@@ -34,7 +34,7 @@ read ID_number
 echo "please enter your marks"
 read marks
 
-if [ $marks -ne 50 ]; then
+if [ $marks -lt 50 ]; then
     echo "$name you are failed"
 else
     echo "$name you are passed"
