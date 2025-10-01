@@ -35,9 +35,9 @@ echo "please enter your marks"
 read marks
 
 if [ $marks -lt 50 ]; then
-    echo "$name you are section a"
-else
     echo "$name you are section b"
+else
+    echo "$name you are section a"
 fi
 
 
