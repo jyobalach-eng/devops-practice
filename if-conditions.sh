@@ -8,11 +8,12 @@ n="\e[0m"
 echo "enter u r age " 
 
 read age
+read name
 
 if [ $age -lt 21 ]; then
-    echo -e "sriya is $r not eligible $n to vote"
+    echo -e "$name is $r not eligible $n to vote"
 else 
-    echo -e "sriya is $g eligible $n to vote"
+    echo -e "$name is $g eligible $n to vote"
 fi
 
 
