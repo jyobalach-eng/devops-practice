@@ -7,11 +7,13 @@ n="\e[0m"
 
 echo "enter u r age " 
 
-read j
+read age
 
-if [ $j -lt 21 ]; then
-    echo -e "j is $r not eligible $n to vote"
+if [ $age -lt 21 ]; then
+    echo -e "sriya is $r not eligible $n to vote"
 else 
-    echo -e "j is $g eligible $n to vote"
+    echo -e "sriya is $g eligible $n to vote"
 fi
+
+
 
