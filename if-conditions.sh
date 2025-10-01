@@ -8,7 +8,7 @@ n="\e[0m"
 j=20
 
 if [ $j -lt 21 ]; then
-    echo "j is $r not eligible $n to vote"
+    echo -e "j is $r not eligible $n to vote"
 else 
-    echo "j is $g eligible $n to vote"
+    echo -e "j is $g eligible $n to vote"
 fi
